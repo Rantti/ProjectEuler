@@ -1,13 +1,14 @@
+package problems;
 /**
  * 
  */
-package problem2;
+
 
 /**
  * @author Antti Eloranta
  *
  */
-public class FibonacciNumbers {
+public class P2_FibonacciNumbers {
 
 	public static void main(String[] args) {
 		int first=1,second=2, newNum=0, sum=0;
@@ -22,7 +23,8 @@ public class FibonacciNumbers {
 				System.out.println(newNum);
 			}
 		}
-		System.out.println("sum is "+sum);
+		System.out.println("Final sum is "+sum);
+		System.exit(0);
 	}
 
 }

@@ -1,11 +1,12 @@
+package problems;
 
-package problem1;
+
 
 /**
  * @author Antti Eloranta
  *
  */
-public class MultiplesOf3And5 {
+public class P1_MultiplesOf3And5 {
 
 	public static void main(String[] args) {
 		System.out.println("Summing multiples of 3 and 5 below 1000");
@@ -16,6 +17,7 @@ public class MultiplesOf3And5 {
 		}
 	}
 	System.out.println("The sum is " + sum);
+	System.exit(0);
 	}
 
 }

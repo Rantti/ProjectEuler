@@ -1,16 +1,17 @@
+package problems;
 /**
  * 
  */
-package problem5;
+
 
 /**
  * @author Antti Eloranta
  *
  */
-public class SmallestMultiple {
+public class P5_SmallestMultiple {
 
 	public static void main(String[] args) {
-		System.out.println("Smallest positive number divisible with numbers 1-20.");
+		System.out.println("Calculating the smallest positive number divisible with numbers 1-20. This may take some time.");
 		boolean found=false;
 		int number=1;
 		while(!found){
@@ -21,6 +22,7 @@ public class SmallestMultiple {
 				if (i==20 && probFound==0){
 					found=true;
 					System.out.println(number);
+					System.exit(0);
 				}
 			}
 			number++;

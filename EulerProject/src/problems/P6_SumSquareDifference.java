@@ -1,11 +1,12 @@
+package problems;
 
-package problem6;
+
 
 /**
  * @author Antti Eloranta
  *
  */
-public class SumSquareDifference {
+public class P6_SumSquareDifference {
 	public static void main(String[] args) {
 		int squareSum=0;
 		for(int i=1; i<=100;i++){
@@ -18,7 +19,8 @@ public class SumSquareDifference {
 			sumSquare+=k;
 		}
 		System.out.println("Square of the sum 1-100 is " + sumSquare*sumSquare);
-		System.out.println("The difference between these sums is " + (squareSum - (sumSquare*sumSquare)));
+		System.out.println("The difference between these sums is " + ((sumSquare*sumSquare) - squareSum));
+		System.exit(0);
 
 	}
 
